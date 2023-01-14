@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* --------------------
+      body style start
+-------------------------*/
+body{
+    width: 1920px;
+}
+/* --------------------
+      body style end
+-------------------------*/
+
+
+/* -----------------------------
+  header and  navbar style start
+------------------------------ */
+header{
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+nav{
+    display: flex;
+    gap: 673px;
+}
+.nav-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 228px;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+ul{
+    padding-top: 63px;
+    padding-right: 240px;
+}
+nav li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+/*---------------------------
+ brand section style start
+----------------------------- */
+
+.brand{
+    padding: 102px 529px 0 529px;
+
+}
+.brand-title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.brand-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+/*----------------------
+ brand section style end
+------------------------ */
+
+/*------------------------------
+ brand-btn-section style start
+-------------------------------- */
+.brand-btn{
+    padding: 41px 870px 0 870px;
+}
+
+.btn-primary{
+    background-color:#FF900E;;
+   font-size: 20px;
+   border: none;
+   border-radius: 10px;
+   padding: 20px 24px;
+}
+
+/*---------------------------
+ brand-btn-section style end
+--------------------------- */
+
+
+/* --------------------------
+banner section style start 
+----------------------------- */
+.banner{
+    padding: 41px 240px 0px 240px;
+    border-radius: 8px;
+}
+.banner img{
+    width: 1440px;
+    height: 700px;
+}
+/* --------------------------
+banner section style end 
+----------------------------- */
+
+
+/* -----------------------------
+  header and  navbar style end
+------------------------------ */
+
+
+
+
+
+/* main part start */
+/* ------------------------------------------------
+   team images and quick list section style start
+---------------------------------------------------- */
+.team-img-and-quick-list{
+    padding: 130px 301px 0 301px;
+}
+.team-images-quick-list{
+    display: flex;
+}
+.images{
+    display: flex;
+    gap: 24px;
+}
+.padding{
+    padding-bottom: 24px;
+}
+/* quick list style */
+.quick-list{
+    padding: 332px 0 0 73px;
+}
+.quick-list-title{
+    font-size: 45px;
+    font-weight: 500;
+}
+.quick-list-description{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+/* ------------------------------------------------
+   team images and quick list section style end
+---------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------
+            features and  image section style start
+-------------------------------------------------- */
+.features-and-image-section{
+    padding: 130px 240px 0 240px;
+}
+.features-and-image{
+    display: flex;
+    gap: 54px;
+}
+.features-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.features-description{
+    color: #727272;
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+.features-info{
+    width: 586px;
+    height: 171px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.info-title{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+.info-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.features-center{
+    padding: 30px 42px 30px 30px;
+}
+
+/* image part */
+.image-part{
+    background-image: url("images/architect.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: top;
+    width: 800px;
+    height: 1059px;
+}
+.ten-year-exp-btn{
+    color: #FFFFFF;
+    background-color: #FF900E;
+    width: 342px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 859px;
+}
+#ten-year{
+    font-weight: 700;
+    font-size: 65px;
+}
+/* ---------------------------------------------------
+            features and  image section style end
+-------------------------------------------------- */
+
+
+/* ------------------------------------------
+        some facts section style start 
+---------------------------------------------*/
+.some-facts-section{
+    padding: 130px 240px 0 240px;
+}
+.facts-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-description{
+    color: #727272;
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.facts-div{
+    display: flex;
+    gap: 124.17px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.facts-box{
+    width: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 50px;
+}
+.facts-box:hover{
+    background-color: #FF900E;
+}
+.facts-count{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.box-title{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+
+/* ------------------------------------------
+        some facts section style end 
+---------------------------------------------*/
+
+
+/* ---------------------------------------------
+     Our Sponsors section style start
+----------------------------------------------- */
+.our-sponsors-section{
+    padding: 130px 240px 0 240px;
+}
+.our-sponsors-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+}
+.our-sponsors-description{
+    color: #727272;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px 449px 0 449px;
+}
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/* ---------------------------------------------
+     Our Sponsors section style end
+----------------------------------------------- */
+/* end main part */
+
+/* -------------------------------------
+       footer style start 
+----------------------------------------*/
+footer{
+    margin: 130px 240px 0 240px;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    padding-top: 39px;
+    padding-bottom: 38px;
+    text-align: center;
+}
+.footus{
+  
+}
+/* -------------------------------------
+       footer style end
+----------------------------------------*/
