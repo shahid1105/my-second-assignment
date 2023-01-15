@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -21,7 +22,7 @@ body{
 ------------------------------ */
 header{
     height: 1322px;
-    background: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 
 }
 nav{
@@ -49,6 +50,14 @@ nav li{
     font-size: 18px;
     font-weight: 500;
 }
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #FF900E;
+    padding: 2px 3px;
+    border-radius: 5px;
+}
 /*---------------------------
  brand section style start
 ----------------------------- */
@@ -69,6 +78,7 @@ nav li{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding-top: 20px;
 }
 /*----------------------
  brand section style end
@@ -262,9 +272,11 @@ banner section style end
     border-radius: 8px;
     text-align: center;
     padding-top: 50px;
+    transition: background-color 5s, transform 5s ;
 }
 .facts-box:hover{
     background-color: #FF900E;
+    transform: rotate(15deg);
 }
 .facts-count{
     color: #424242;
@@ -284,6 +296,44 @@ banner section style end
 /* ------------------------------------------
         some facts section style end 
 ---------------------------------------------*/
+
+
+/*----------------------------------------------------------
+   The Last Year Top Projects Section style start  
+-----------------------------------------------------------*/
+.the-last-year-projects{
+    margin-top: 130px;
+    padding: 100px 240px 50px 240px;
+    /* background-color: rgba(255, 144, 14, 0.1); */
+}
+.last-year-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.last-year{
+    display: flex;
+    gap: 70px;
+}
+.last-year-top img{
+    border-radius: 10px;
+}
+.project-info-title{
+    color: #FF900E;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.project-info-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 18px;
+}
+/*----------------------------------------------------------
+   The Last Year Top Projects Section style end  
+-----------------------------------------------------------*/
 
 
 /* ---------------------------------------------
@@ -319,7 +369,7 @@ banner section style end
        footer style start 
 ----------------------------------------*/
 footer{
-    margin: 130px 240px 0 240px;
+    margin: 130px 240px 130px 240px;
     color: #424242;
     font-weight: 400;
     font-size: 20px;
@@ -330,9 +380,98 @@ footer{
     padding-bottom: 38px;
     text-align: center;
 }
-.footus{
-  
-}
 /* -------------------------------------
        footer style end
 ----------------------------------------*/
+
+
+/* --------------------------
+     mobile responsive start
+------------------------------*/
+
+@media only screen and (max-width:576px){
+    body{
+        width: 576px;
+    }
+    header{
+        height: auto;
+        background: none;
+    }
+    .nav-title{
+        padding-left: 150px;
+        
+    }
+    nav{
+        flex-direction: column;
+        gap: 80px;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-left: 230px;
+    }
+    nav li{
+        font-size: 45px;
+        font-weight: 500;
+    }
+    ul{
+        padding-bottom: 50px;
+    }
+    .banner{
+        padding: 50px;
+    }
+    .banner img{
+        width: 576px;
+    }
+    .brand{
+        padding: 0px;
+    }
+    .brand-title{
+        margin-left: 50px;
+    }
+    .brand-description{
+        padding-left: 50px;
+    }
+    .brand-btn{
+        padding-left: 250px;
+    }
+    .team-img-and-quick-list, .features-and-image-section, .the-last-year-projects{
+        padding: 130px 0 0 50px;
+    }
+    .team-images-quick-list{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .quick-list{
+        padding: 40px 0 0 50px;
+    }
+
+    /* features-and-image-section */
+    .features-and-image, .facts-div,.last-year{
+        flex-direction: column;
+    }
+    .features-title, .features-description, .info-title, .info-description{
+        margin-left: 50px;
+    }
+    /* last year top projects */
+    .last-year-title{
+        margin-left: 180px;
+    }
+    /* our sponsors */
+    .sponsors-logo{
+        flex-direction: column;
+        gap: 80px;
+    }
+    .our-sponsors-description{
+        padding: 50px 0px 50px 0px;
+    }
+    /* footer */
+    footer{
+        width: 576px;
+        margin:130px 0px 0px 150px;
+        padding: 20px 0px 20px 0px;
+    }
+}
